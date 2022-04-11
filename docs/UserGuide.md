@@ -27,6 +27,8 @@ stopwatch to keep track of how long you've been studying for, if you're unsure o
 After your study session, you will be prompted to mark the tasks you've completed as done. If you're still not done with
 certain tasks, feel free to start another productive session!
 
+<div style="page-break-after: always;"></div>
+
 ### User Guide Target Audience
 New and inexperienced users who want to use Sherpass, as well as non-users who want to know more about what Sherpass
 can do.
@@ -42,6 +44,7 @@ it correctly and with ease. Here are some icons which we will use to convey impo
 > **⚠️Important Notes / Warnings️**
 >- **Essential** information you should take note of to be able to use the application correctly. 
 
+<div style="page-break-after: always;"></div>
 
 ## Table of Content
 - [Quick Start](#quick-start)
@@ -66,8 +69,10 @@ it correctly and with ease. Here are some icons which we will use to convey impo
   - Exit program: [`bye`](#exit-program-bye)
   - [Saving your tasks](#saving-your-tasks)
 - [FAQ](#faq)
-- [Glossary](#faq)
+- [Glossary](#glossary)
 - [Command Summary](#command-summary)
+
+<div style="page-break-after: always;"></div>
 
 ## Quick Start
 
@@ -114,7 +119,7 @@ Format: `add TASK_DESCRIPTION /do DATE /start START_TIME /end END_TIME [/bydate 
 > When using the optional parameter shown in `[]`, both the`DEADLINE` and `END_TIME` to need be used together.
 
 **Examples**
-- `add write final essay /do 25/6/2022 /start 20:00 /end 22:00 /bydate 27/6/2022 /bytime 23:59`
+- `add write final essay /do 11/4/2022 /start 22:00 /end 24:00 /bydate 13/4/2022 /bytime 23:59`
 
 ![](images/addSingleTaskWithDeadline.png)
 
@@ -146,9 +151,11 @@ Format: `add TASK_DESCRIPTION /do DATE /start START_TIME /end END_TIME [/bydate 
 - `add cs2113t weekly quiz /do 21/6/2022 /start 16:00 /end 18:00 /bydate 25/6/2022 /bytime 16:00 /repeat WEEKLY`
 
 Before adding (current schedule of all tasks):
+
 ![](images/scheduleBeforeAddingRecurringTasksOne.png)
 
 When adding the task:
+
 ![](images/addRecurringTasksWithDeadline.png)
 
 After adding :
@@ -169,12 +176,15 @@ Format: `delete TASK_NUMBER`
 - `delete 2`
 
 Before delete command:
+
 ![](images/scheduleAfterAddingRecurringTasksOne.png)
 
 When executing delete command:
+
 ![](images/deleteSingleTask.png)
 
 After delete command:
+
 ![](images/scheduleAfterDeletingASingleTask.png)
 
 ### Deleting your recurring tasks
@@ -225,12 +235,15 @@ Format: `edit TASK_NUMBER [TASK_DESCRIPTION] [/do DATE] [/start START_TIME] [/en
 - `edit 2 write draft essay`
 
 Before edit command:
-![](images/scheduleAfterDeletingASingleTask.png)
+
+![](images/scheduleAfterAddingRecurringTasksOne.png)
 
 When executing edit command:
+
 ![](images/editSingleTask.png)
 
 After edit command:
+
 ![](images/scheduleAfterEditingASingleTask.png)
 
 
@@ -406,12 +419,16 @@ Format:
 **Example**
 
 Below are some sample outputs for `clear all`, which asks a confirmation message before executing the clear:
-![image](images/clear_all_confirmation.png)
-If the user inputs `y`:
-![image](images/clear_all_execute.png)
-If the user inputs `n`:
-![image](images/clear_all_no_execute.png)
 
+![image](images/clear_all_confirmation.png)
+
+If the user inputs `y`:
+
+![image](images/clear_all_execute.png)
+
+If the user inputs `n`:
+
+![image](images/clear_all_no_execute.png)
 
 ### Enter study session: `study`
 Enter the study session where you can start timers to help finish your tasks.
@@ -652,6 +669,7 @@ The following fields are required to correctly load a task:
 |    status     | Status of the task                                          | `X` for completed, `-` for incomplete                      |
 
 
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
@@ -675,6 +693,8 @@ In the case for Sherpass, a parameter would be a valid input that accompanies a 
 For example, in the [`show`](#show-your-tasks-show) command,
 one of the options provided is `show all`. The `all` keyword would thus be the parameter.
 * *Extraneous* - Something that is unnecessary or irrelevant.
+
+<div style="page-break-after: always;"></div>
 
 ## Command Summary
 
